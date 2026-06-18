@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ranjeet Singh</h1>
-<h3 align="center">DevOps & Cloud Engineer | AWS | AZURE | GCP |Terraform | Kubernetes | CI/CD | Indore, India 🇮🇳</h3>
+<h3 align="center">DevOps & Cloud Engineer | AWS | AZURE | GCP | Terraform | Kubernetes | CI/CD | Indore, India 🇮🇳</h3>
 
 ---
 
