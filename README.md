@@ -5,13 +5,13 @@
 
 ## 👨‍💻 About Me
 
-- 🏢 Working as **DevOps & Cloud Engineer** at **Infograins Software Solutions, Indore** (9+ years)
+- 🏢 **DevOps & Cloud Engineer** at **Infograins Software Solutions, Indore** (9+ years)
 - ☁️ Specialized in **AWS Cloud Infrastructure**, **CI/CD Pipelines**, and **Infrastructure as Code**
+- 🖥️ Background in **Linux/System Administration** and **On-Premise Server Management** (2017–2019)
 - 🎯 Currently preparing for **CKA (Certified Kubernetes Administrator)**
 - 🔧 Hands-on with **Harness CD**, **Terraform**, **Docker**, **Kubernetes**, **Jenkins**
-- 🔐 Experience in **AWS Security** — GuardDuty, Security Hub, IAM Access Analyzer, Secrets Manager
-- 🎓 Open to **DevOps teaching opportunities** at IT training institutes in Indore
-- 📫 Reach me at: **rsingh7089@gmail.com**
+- 🔐 Experience in **AWS Security** — GuardDuty, Security Hub, IAM Access Analyzer
+- 📫 Reach me: **rsingh7089@gmail.com**
 - 🔗 LinkedIn: [linkedin.com/in/ranjeet-singh-indore](https://linkedin.com/in/ranjeet-singh-indore)
 
 ---
@@ -31,8 +31,12 @@
 
 ## 🛠️ Tech Stack
 
-### ☁️ Cloud & Infrastructure
+### ☁️ Cloud Platforms
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+### 🏗️ Infrastructure as Code
 ![Terraform](https://img.shields.io/badge/Terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -50,40 +54,64 @@
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-%23FF4F8B.svg?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white)
 
-### 💻 Scripting & Tools
+### 💻 Scripting
 ![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
-## 🚀 Key AWS Services I Work With
-
+## 🚀 AWS Services I Work With
 ```
 EC2 | S3 | RDS | Lambda | API Gateway | SQS | DynamoDB
 IAM | VPC | CloudWatch | Transfer Family | SSM | GuardDuty
-Security Hub | Inspector | Secrets Manager | Route53 | ECS
+ALB | Route 53 | Security Hub | Inspector | Secrets Manager | ECS
+```
+
+## 🔵 Azure Services (Familiar)
+```
+Azure VMs | Azure AD | App Service | AZ-900 Certified
+```
+
+## 🟡 GCP Services (Familiar)
+```
+Compute Engine | Cloud Storage | IAM | Cloud Run
 ```
 
 ---
 
 ## 📂 Featured Projects
 
-### 🛫 GoTravelX — United Airlines Flight Data Platform (AWS)
-- Built complete CI/CD pipelines using **Harness CD** across DEV/QA/STG/PROD
-- Integrated **SQS + Lambda + API Gateway** for real-time flight data ingestion
-- Provisioned **AWS Transfer Family (SFTP)** for OAG flight schedule data via Terraform
-- Migrated all EC2 instances from SSH to **AWS SSM Session Manager** (zero downtime)
-- Implemented **AWS Security Hardening** — GuardDuty, IAM Access Analyzer, Security Hub
-- Performed **EC2 patching** across 12 instances with zero downtime
+### 🛫 GoTravelX — United Airlines Flight Data Platform
+> Real-time flight data integration platform on AWS
 
-### 🔧 DevOps Automation Scripts
-- Bash scripts for health monitoring, IAM key rotation, EC2 patching
-- Terraform modules for VPC, SQS, S3, IAM, Transfer Family
+- Built **Harness CD pipelines** across DEV/QA/STG/PROD environments
+- **SQS + Lambda + API Gateway** — event-driven flight data ingestion
+- **AWS Transfer Family (SFTP)** — OAG flight schedule data via Terraform
+- 🖥️ Managed **17 EC2 instances** across multi-region setup (us-east-1 & us-east-2)
+- 🔁 Designed **Cross-Region Failover** architecture for high availability
+- 💾 Configured **Cross-Region Backup** for disaster recovery
+- 🌐 Configured **Route 53** — DNS routing, health checks & failover policies
+- ⚖️ Set up **Application Load Balancer (ALB)** for traffic distribution
+- 🔄 Built **Harness CD pipelines** across DEV/QA/STG/PROD environments
+- 📨 **SQS + Lambda + API Gateway** — event-driven flight data ingestion
+- 📁 **AWS Transfer Family (SFTP)** — OAG flight schedule data via Terraform
+- 🔐 Migrated all EC2 instances from SSH → **AWS SSM Session Manager** (zero downtime)
+- 🛡️ **AWS Security Hardening** — GuardDuty, IAM Analyzer, Security Hub
+- 🩹 EC2 kernel patching across all instances — zero downtime
+- **AWS Security Hardening** — GuardDuty, IAM Analyzer, Security Hub
+- EC2 kernel patching across all instances — zero downtime
+- `Stack: AWS | Terraform | Harness | Docker | Node.js | DynamoDB`
 
-### ☸️ CKA Preparation Lab
-- Kubernetes manifests — Deployments, StatefulSets, DaemonSets, NetworkPolicy
-- RBAC, Ingress, CoreDNS, etcd backup/restore, cluster upgrade practice
+---
+
+### ⛽ Petrocoin — Blockchain Fuel Management Platform
+> CI/CD pipeline for a blockchain-based fuel management system
+
+- **GitHub Actions** CI/CD — automated build + deploy on every push
+- **GHCR** for Docker image registry
+- **Nginx + Certbot SSL** for production domain
+- **PostgreSQL** containerized with Docker Compose
+- `Stack: GitHub Actions | Docker | React | Node.js | Nginx | PostgreSQL`
 
 ---
 
@@ -102,7 +130,7 @@ Security Hub | Inspector | Secrets Manager | Route53 | ECS
   <a href="https://linkedin.com/in/ranjeet-singh-indore" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:rsingh.infograins@gmail.com">
+  <a href="mailto:rsingh7089@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
