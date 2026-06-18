@@ -11,7 +11,7 @@
 - 🔧 Hands-on with **Harness CD**, **Terraform**, **Docker**, **Kubernetes**, **Jenkins**
 - 🔐 Experience in **AWS Security** — GuardDuty, Security Hub, IAM Access Analyzer, Secrets Manager
 - 🎓 Open to **DevOps teaching opportunities** at IT training institutes in Indore
-- 📫 Reach me at: **rsingh.infograins@gmail.com**
+- 📫 Reach me at: **rsingh7089@gmail.com**
 - 🔗 LinkedIn: [linkedin.com/in/ranjeet-singh-indore](https://linkedin.com/in/ranjeet-singh-indore)
 
 ---
