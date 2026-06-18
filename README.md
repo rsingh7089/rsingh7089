@@ -92,9 +92,6 @@ Compute Engine | Cloud Storage | IAM | Cloud Run
 - 💾 Configured **Cross-Region Backup** for disaster recovery
 - 🌐 Configured **Route 53** — DNS routing, health checks & failover policies
 - ⚖️ Set up **Application Load Balancer (ALB)** for traffic distribution
-- 🔄 Built **Harness CD pipelines** across DEV/QA/STG/PROD environments
-- 📨 **SQS + Lambda + API Gateway** — event-driven flight data ingestion
-- 📁 **AWS Transfer Family (SFTP)** — OAG flight schedule data via Terraform
 - 🔐 Migrated all EC2 instances from SSH → **AWS SSM Session Manager** (zero downtime)
 - 🛡️ **AWS Security Hardening** — GuardDuty, IAM Analyzer, Security Hub
 - 🩹 EC2 kernel patching across all instances — zero downtime
